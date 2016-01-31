@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Airport" representedClassName="Country" syncable="YES">
+        <attribute name="atis" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="enoutealternate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iATAIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iCAOIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Airports" representedClassName="Airports" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="AirportsAfrica" representedClassName="AirportsAfrica" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsAmericas" representedClassName="AirportsAmericas" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsAsia" representedClassName="AirportsAsia" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsAustralia" representedClassName="AirportsAustralia" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsEurasia" representedClassName="AirportsEurasia" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsEurope" representedClassName="AirportsEurope" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsImported" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="AirportsMiddleEast" syncable="YES">
+        <attribute name="adequate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cat787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpldg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cpldgnote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="elevation" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="escaperoute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iataidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icaoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note32x" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note332" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note333" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note345" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note346" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note350" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note380" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note777" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note787" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="peg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pegnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rffnotes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="variation" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Escape" representedClassName="Escape" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInbound" representedClassName="EscapeNarrowInbound" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInboundAfricaUSA" representedClassName="EscapeNarrowInboundAfricaUSA" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInboundChina" representedClassName="EscapeNarrowInboundChina" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInboundEurope" representedClassName="EscapeNarrowInboundEurope" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInboundIran" representedClassName="EscapeNarrowInboundIran" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowInboundMiddleEast" representedClassName="EscapeNarrowInboundMiddleEast" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutbound" representedClassName="EscapeNarrowOutbound" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutboundAfricaUSA" representedClassName="EscapeNarrowOutboundAfricaUSA" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutboundChina" representedClassName="EscapeNarrowOutboundEurope" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutboundEurope" representedClassName="EscapeWideOutboundEurope" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutboundIran" representedClassName="EscapeNarrowOutboundIran" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeNarrowOutboundMiddleEast" representedClassName="EscapeNarrowOutboundMiddleEast" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundAfricaUSA" representedClassName="EscapeWideInboundAfricaUSA" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundChina" representedClassName="EscapeWideInboundChina" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundEurope" representedClassName="EscapeWideInboundEurope" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundIran" representedClassName="EscapeWideInboundIran" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundMiddleEast" representedClassName="EscapeWideInboundMiddleEast" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideInboundSEAsia" representedClassName="EscapeWideInboundSEAsia" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundAfricaUSA" representedClassName="EscapeWideOutboundAfricaUSA" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundChina" representedClassName="EscapeWideOutboundChina" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundEurope" representedClassName="EscapeWideOutboundEurope" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundIran" representedClassName="EscapeWideOutboundIran" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundMiddleEast" representedClassName="EscapeWideOutboundMiddleEast" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EscapeWideOutboundSEAsia" representedClassName="EscapeWideOutboundSEAsia" syncable="YES">
+        <attribute name="aircraft" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="airways" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chart" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="page" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wptname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Airport" positionX="-54" positionY="-9" width="128" height="238"/>
+        <element name="Airports" positionX="126" positionY="135" width="128" height="645"/>
+        <element name="AirportsAfrica" positionX="63" positionY="144" width="128" height="690"/>
+        <element name="AirportsAmericas" positionX="72" positionY="153" width="128" height="690"/>
+        <element name="AirportsAsia" positionX="90" positionY="171" width="128" height="690"/>
+        <element name="AirportsAustralia" positionX="108" positionY="189" width="128" height="705"/>
+        <element name="AirportsEurasia" positionX="99" positionY="180" width="128" height="690"/>
+        <element name="AirportsEurope" positionX="81" positionY="162" width="128" height="690"/>
+        <element name="AirportsImported" positionX="63" positionY="144" width="128" height="705"/>
+        <element name="AirportsMiddleEast" positionX="117" positionY="198" width="128" height="690"/>
+        <element name="Escape" positionX="153" positionY="171" width="128" height="270"/>
+        <element name="EscapeNarrowInbound" positionX="135" positionY="144" width="128" height="270"/>
+        <element name="EscapeNarrowInboundAfricaUSA" positionX="81" positionY="162" width="128" height="285"/>
+        <element name="EscapeNarrowInboundChina" positionX="72" positionY="153" width="128" height="285"/>
+        <element name="EscapeNarrowInboundEurope" positionX="81" positionY="162" width="128" height="285"/>
+        <element name="EscapeNarrowInboundIran" positionX="99" positionY="180" width="128" height="285"/>
+        <element name="EscapeNarrowInboundMiddleEast" positionX="90" positionY="171" width="128" height="285"/>
+        <element name="EscapeNarrowOutbound" positionX="144" positionY="153" width="128" height="270"/>
+        <element name="EscapeNarrowOutboundAfricaUSA" positionX="63" positionY="144" width="128" height="285"/>
+        <element name="EscapeNarrowOutboundChina" positionX="72" positionY="153" width="128" height="285"/>
+        <element name="EscapeNarrowOutboundEurope" positionX="63" positionY="144" width="128" height="285"/>
+        <element name="EscapeNarrowOutboundIran" positionX="90" positionY="171" width="128" height="285"/>
+        <element name="EscapeNarrowOutboundMiddleEast" positionX="99" positionY="180" width="128" height="285"/>
+        <element name="EscapeWideInboundAfricaUSA" positionX="90" positionY="171" width="128" height="285"/>
+        <element name="EscapeWideInboundChina" positionX="108" positionY="189" width="128" height="285"/>
+        <element name="EscapeWideInboundEurope" positionX="162" positionY="180" width="128" height="285"/>
+        <element name="EscapeWideInboundIran" positionX="180" positionY="198" width="128" height="285"/>
+        <element name="EscapeWideInboundMiddleEast" positionX="126" positionY="144" width="128" height="285"/>
+        <element name="EscapeWideInboundSEAsia" positionX="90" positionY="171" width="128" height="285"/>
+        <element name="EscapeWideOutboundAfricaUSA" positionX="99" positionY="180" width="128" height="285"/>
+        <element name="EscapeWideOutboundChina" positionX="117" positionY="198" width="128" height="285"/>
+        <element name="EscapeWideOutboundEurope" positionX="171" positionY="189" width="128" height="285"/>
+        <element name="EscapeWideOutboundIran" positionX="135" positionY="153" width="128" height="285"/>
+        <element name="EscapeWideOutboundMiddleEast" positionX="126" positionY="135" width="128" height="285"/>
+        <element name="EscapeWideOutboundSEAsia" positionX="63" positionY="144" width="128" height="285"/>
+    </elements>
+</model>

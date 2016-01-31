@@ -25,6 +25,7 @@
 		971ADFEE1C5BCC5900F7C704 /* DecoderATCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADFE81C5BCC5900F7C704 /* DecoderATCTableViewCell.m */; };
 		971ADFEF1C5BCC5900F7C704 /* DecoderEquipmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADFEA1C5BCC5900F7C704 /* DecoderEquipmentTableViewCell.m */; };
 		971ADFF01C5BCC5900F7C704 /* DecoderALTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADFEC1C5BCC5900F7C704 /* DecoderALTTableViewCell.m */; };
+		971ADFF41C5E065200F7C704 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 971ADFF31C5E065200F7C704 /* .gitignore */; };
 		971F5B0E1AEF646F00C17DBE /* EnrouteInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971F5B0D1AEF646F00C17DBE /* EnrouteInfoTableViewController.m */; };
 		971F5B111AEF83A300C17DBE /* RouteInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 971F5B101AEF83A300C17DBE /* RouteInfoTableViewCell.m */; };
 		971F5B261AF0B46000C17DBE /* EscapeNarrowOutboundIran.m in Sources */ = {isa = PBXBuildFile; fileRef = 971F5B121AF0B46000C17DBE /* EscapeNarrowOutboundIran.m */; };
@@ -433,6 +434,7 @@
 		971ADFEA1C5BCC5900F7C704 /* DecoderEquipmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoderEquipmentTableViewCell.m; sourceTree = "<group>"; };
 		971ADFEB1C5BCC5900F7C704 /* DecoderALTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoderALTTableViewCell.h; sourceTree = "<group>"; };
 		971ADFEC1C5BCC5900F7C704 /* DecoderALTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoderALTTableViewCell.m; sourceTree = "<group>"; };
+		971ADFF31C5E065200F7C704 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		971F5B0C1AEF646F00C17DBE /* EnrouteInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnrouteInfoTableViewController.h; sourceTree = "<group>"; };
 		971F5B0D1AEF646F00C17DBE /* EnrouteInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnrouteInfoTableViewController.m; sourceTree = "<group>"; };
 		971F5B0F1AEF83A300C17DBE /* RouteInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInfoTableViewCell.h; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 				974B0BB41C566A710092D1D1 /* MaxFDP.storyboard */,
 				975B087B1AC2760000EE5BE6 /* Main.storyboard */,
 				970AD19B1C5C714E00350B66 /* MOTNE.storyboard */,
+				971ADFF31C5E065200F7C704 /* .gitignore */,
 				972204C51B04D87A003609AE /* PDF Parse */,
 				972204B91B03BEE2003609AE /* Data */,
 				97BEDEED1AE79DE00001A085 /* Airports.sqlite */,
@@ -2221,6 +2224,7 @@
 				9737F82C1B1DB1280046CC03 /* reading-32_y.png in Resources */,
 				975B090C1AC2A05700EE5BE6 /* geography-32.png in Resources */,
 				9737F82A1B1DB08D0046CC03 /* water_element-32_y.png in Resources */,
+				971ADFF41C5E065200F7C704 /* .gitignore in Resources */,
 				9737F8071B19680C0046CC03 /* Reader-Mark-N.png in Resources */,
 				9733EE5D1B9B312300DBFF3A /* OMAA.png in Resources */,
 				97BEDEEE1AE79E0D0001A085 /* Airports.sqlite in Resources */,

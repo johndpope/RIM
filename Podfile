@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'RIM' do
-pod 'AFNetworking', '~> 3.0'
+pod 'AFNetworking', '~> 2.3'
 pod 'SSZipArchive', '~> 1.0'
 pod 'SVProgressHUD', '2.0-beta'
 end

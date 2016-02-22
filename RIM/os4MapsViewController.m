@@ -733,6 +733,7 @@ enum
         }
     }
 }
+
 -(void)loadAllAirports
 {
     [User sharedUser].arrayAllCompanyAirports = [[NSMutableArray alloc]init];
@@ -1840,6 +1841,9 @@ didSelectAnnotationView:(MKAnnotationView *)view
     [User sharedUser].strTripDuration = [[NSString stringWithFormat:@"%02.0f",floor((dblFlighttime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblFlighttime)/3600 - floor((dblFlighttime)/3600))*60]];
     [SVProgressHUD dismiss];
 
+    for (objWPT *wpt in [User sharedUser].arrayEnRouteWaypoints) {
+        NSLog(@"~ %@ === %@ %@ %@", wpt.strWptName, wpt.strType, wpt.strLon, wpt);
+    }
 }
 
 

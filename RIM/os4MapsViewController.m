@@ -16,6 +16,7 @@
 #import "EDSunriseSet.h"
 #import "SunFlightresults.h"
 #import <SVProgressHUD.h>
+#import "MKNumberBadgeView.h"
 
 @interface os4MapsViewController() <MBProgressHUDDelegate>
 {

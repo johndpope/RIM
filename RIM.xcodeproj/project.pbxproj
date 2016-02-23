@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3481E6141C7C40E200F2E87D /* MKNumberBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3481E6131C7C40E200F2E87D /* MKNumberBadgeView.m */; };
 		34CA839B1C70AF3A004C2B06 /* SDAFParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CA839A1C70AF3A004C2B06 /* SDAFParse.m */; };
 		34D935F41C7ADFF100DDB6A9 /* GlobeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D935F31C7ADFF100DDB6A9 /* GlobeViewController.m */; };
 		34D935F71C7AE02300DDB6A9 /* MapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D935F61C7AE02300DDB6A9 /* MapsViewController.m */; };
 		34D935FB1C7AE29100DDB6A9 /* Map-Raster.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = 34D935FA1C7AE29100DDB6A9 /* Map-Raster.mbtiles */; };
-		34D936001C7B2F1300DDB6A9 /* Smiley_Face_Avatar_by_PixelTwist.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D935FF1C7B2F1300DDB6A9 /* Smiley_Face_Avatar_by_PixelTwist.png */; };
 		82761B5E9703A1F95A6C4601 /* libPods-RIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B0477BDA12695C3F56665A /* libPods-RIM.a */; };
 		970AD19C1C5C714E00350B66 /* MOTNE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970AD19B1C5C714E00350B66 /* MOTNE.storyboard */; };
 		970AD1A31C5CC02600350B66 /* MOTNETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AD1A21C5CC02600350B66 /* MOTNETableViewController.m */; };
@@ -401,6 +401,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3481E6121C7C40E200F2E87D /* MKNumberBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNumberBadgeView.h; sourceTree = "<group>"; };
+		3481E6131C7C40E200F2E87D /* MKNumberBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNumberBadgeView.m; sourceTree = "<group>"; };
 		34CA83991C70AF3A004C2B06 /* SDAFParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAFParse.h; sourceTree = "<group>"; };
 		34CA839A1C70AF3A004C2B06 /* SDAFParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAFParse.m; sourceTree = "<group>"; };
 		34D935F21C7ADFF100DDB6A9 /* GlobeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeViewController.h; sourceTree = "<group>"; };
@@ -408,7 +410,6 @@
 		34D935F51C7AE02300DDB6A9 /* MapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapsViewController.h; sourceTree = "<group>"; };
 		34D935F61C7AE02300DDB6A9 /* MapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapsViewController.m; sourceTree = "<group>"; };
 		34D935FA1C7AE29100DDB6A9 /* Map-Raster.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Map-Raster.mbtiles"; sourceTree = "<group>"; };
-		34D935FF1C7B2F1300DDB6A9 /* Smiley_Face_Avatar_by_PixelTwist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smiley_Face_Avatar_by_PixelTwist.png; sourceTree = "<group>"; };
 		4DCEE243A6AE08E30D57E606 /* Pods-RIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RIM/Pods-RIM.release.xcconfig"; sourceTree = "<group>"; };
 		94D2E511E5E8E3AFF9E9AF19 /* Pods-RIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RIM/Pods-RIM.debug.xcconfig"; sourceTree = "<group>"; };
 		970AD19B1C5C714E00350B66 /* MOTNE.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MOTNE.storyboard; sourceTree = "<group>"; };
@@ -988,10 +989,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3481E6151C7C40EC00F2E87D /* MKNumberBadge */ = {
+			isa = PBXGroup;
+			children = (
+				3481E6121C7C40E200F2E87D /* MKNumberBadgeView.h */,
+				3481E6131C7C40E200F2E87D /* MKNumberBadgeView.m */,
+			);
+			name = MKNumberBadge;
+			sourceTree = "<group>";
+		};
 		34D935F11C7ADFDF00DDB6A9 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				34D935FF1C7B2F1300DDB6A9 /* Smiley_Face_Avatar_by_PixelTwist.png */,
 				34D935F21C7ADFF100DDB6A9 /* GlobeViewController.h */,
 				34D935F31C7ADFF100DDB6A9 /* GlobeViewController.m */,
 				34D935F51C7AE02300DDB6A9 /* MapsViewController.h */,
@@ -1180,11 +1189,8 @@
 		972204BC1B03BF6D003609AE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-=======
+				3481E6151C7C40EC00F2E87D /* MKNumberBadge */,
 				34D935F11C7ADFDF00DDB6A9 /* Maps */,
-				974B0BB01C562D770092D1D1 /* NumberBatch */,
->>>>>>> 5fdadc6081ca26b024ba8eb8ecc0682ed14609a1
 				975BAA971B5214ED00FF4792 /* Mapkit */,
 				9737F8281B1DAFDD0046CC03 /* Library */,
 				972204C11B045F3E003609AE /* Start */,
@@ -2099,7 +2105,6 @@
 				97F7B21F1B159DC100B20F40 /* info-32_y.png in Resources */,
 				975B08FE1AC29E7400EE5BE6 /* satellite_sending_signal-32.png in Resources */,
 				974B0C3B1C5670860092D1D1 /* A346front.png in Resources */,
-				34D936001C7B2F1300DDB6A9 /* Smiley_Face_Avatar_by_PixelTwist.png in Resources */,
 				974B0C1D1C5670860092D1D1 /* ios7_app_icon_ipad@2x.png in Resources */,
 				974B0C281C5670860092D1D1 /* A332side.png in Resources */,
 				974B0C241C5670860092D1D1 /* A332front.png in Resources */,
@@ -2442,6 +2447,7 @@
 				971F5B0E1AEF646F00C17DBE /* EnrouteInfoTableViewController.m in Sources */,
 				974B0BEA1C5670760092D1D1 /* A332FTableViewController.m in Sources */,
 				972204B71B0378E8003609AE /* AirportAlternateCategorieTableViewController.m in Sources */,
+				3481E6141C7C40E200F2E87D /* MKNumberBadgeView.m in Sources */,
 				97FDFAFF1B886ED80075BC42 /* PopOverDatePickerViewController.m in Sources */,
 				974B0BE51C5670760092D1D1 /* A343TableViewController.m in Sources */,
 				34D935F41C7ADFF100DDB6A9 /* GlobeViewController.m in Sources */,

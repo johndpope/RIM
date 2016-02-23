@@ -69,12 +69,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-<<<<<<< .merge_file_1mglmU
-// Set SVProgressHUD defaults
-=======
     // Set SVProgressHUD defaults
->>>>>>> .merge_file_ZFgQLa
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleLight];
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeNative];
@@ -160,11 +155,7 @@
                                                            NSShadowAttributeName,
                                                            [UIFont systemFontOfSize:25.0], NSFontAttributeName, nil]];
     [[UITabBar appearance] setTintColor:[UIColor colorWithRed:0.788 green:0.62 blue:0.176 alpha:1]]; /*#c99e2d*/
-<<<<<<< .merge_file_1mglmU
     UIImage* tabBarBackground = [UIImage imageNamed:@"TabbarIMGgray.png"];
-=======
-    UIImage* tabBarBackground = [UIImage imageNamed:@"TabbarIMG.png"];
->>>>>>> .merge_file_ZFgQLa
     [[UITabBar appearance] setBackgroundImage:tabBarBackground];
     [[UINavigationBar appearance] setBackgroundImage:tabBarBackground forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.788 green:0.62 blue:0.176 alpha:1]]; /*#007aff*/

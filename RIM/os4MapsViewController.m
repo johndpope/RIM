@@ -40,7 +40,7 @@
     NSMutableString *strExportNOTAMS;
     Country *airportLog;
     NSString *btnFltplanTitle;
-//    MKNumberBadgeView *numberBadge;
+    MKNumberBadgeView *numberBadge;
     NSMutableArray *_waypoints;
     NSMutableArray *_waypointsHigh;
     NSMutableArray *_enrAirports;
@@ -55,6 +55,8 @@
     MKCircle *circle;
     objWPT *objEnRouteWpt;
     objLog *objLogWpt;
+//    Airport *enrAirport;
+//    Airport *airport;
     CLLocationManager *_locationManager;
     NSString *strWptName;
     NSString *strAptName;
@@ -455,9 +457,9 @@ enum
     [self loadAllAirports];
     [_mapView addAnnotations:_CompanyAirports];
     bolCompanyAirports = YES;
-//    numberBadge = [[MKNumberBadgeView alloc] initWithFrame:CGRectMake(5, 2, 35,22)];
+    numberBadge = [[MKNumberBadgeView alloc] initWithFrame:CGRectMake(5, 2, 35,22)];
 //    [self loadDocuments];
-//    numberBadge.value = [documents count];
+    numberBadge.value = [documents count];
     btnAirports = [[UIBarButtonItem alloc]  initWithImage:[UIImage imageNamed:@"AirportG_25.png"] style:UIBarButtonItemStylePlain  target:self action:@selector(removeAirports)];
     btnAirportsAll = [[UIBarButtonItem alloc]  initWithImage:[UIImage imageNamed:@"AirportO_25.png"] style:UIBarButtonItemStylePlain  target:self action:@selector(removeCompanyAirports)];
     btnCircles60 = [[UIBarButtonItem alloc]  initWithImage:[UIImage imageNamed:@"60_circle32.png"] style:UIBarButtonItemStylePlain  target:self action:@selector(removeCircles60)];
@@ -626,7 +628,7 @@ enum
         // for demo
 //        [User sharedUser].strFlightIdentifier = @"ACA777";
 //        [User sharedUser].strAircraftRegistration = @"A6DEMO";
-//        [User sharedUser].strFlightPlanTitle = @"DXB - SFO";
+//        [User sharedUser].strFltplanTitle = @"DXB - SFO";
 
     [btnHeader1 setTitle:[[[[[[[[[[[[[[[User sharedUser].strOFPNumber stringByAppendingString:@" "] stringByAppendingString:[User sharedUser].strFlightIdentifier]stringByAppendingString:@" "] stringByAppendingString:dateString]stringByAppendingString:@" "] stringByAppendingString: [User sharedUser].strFlightPlanTitle] stringByAppendingString:@" "] stringByAppendingString: [User sharedUser].strAircraftRegistration] stringByAppendingString:@" "]stringByAppendingString: [User sharedUser].strAircraftType] stringByAppendingString:@" "] stringByAppendingString:[User sharedUser].strTripDuration] stringByAppendingString:@" F"]stringByAppendingString:[User sharedUser].strInitialAltitude] forState:UIControlStateNormal];
     [customHeader addSubview:btnHeader1];
@@ -652,7 +654,7 @@ enum
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude =[User sharedUser].dblLatitudeMapCenter;
     zoomLocation.longitude = [User sharedUser].dblLongitudeMapCenter;
-    #define METERS_PER_NM 1852
+#define METERS_PER_NM 1852
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 500*METERS_PER_NM, 500*METERS_PER_NM);
     MKCoordinateRegion adjustedRegion = [_mapView regionThatFits:viewRegion];
     [_mapView setRegion:adjustedRegion animated:YES];
@@ -731,6 +733,7 @@ enum
         }
     }
 }
+
 -(void)loadAllAirports
 {
     [User sharedUser].arrayAllCompanyAirports = [[NSMutableArray alloc]init];
@@ -1215,28 +1218,28 @@ didSelectAnnotationView:(MKAnnotationView *)view
 -(IBAction)chooseWaypointButtonTapped:(id)sender
 
 {
+
     StartTableViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"popWaypoints"];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:controller];
     nav.modalPresentationStyle = UIModalPresentationPopover;
     UIPopoverPresentationController *popover = nav.popoverPresentationController;
-    controller.preferredContentSize = CGSizeMake(525, 600);
+    controller.preferredContentSize = CGSizeMake(500, 600);
     popover.delegate = self;
     popover.sourceView = self.view;
     popover.sourceRect = CGRectMake(100, 50, 0, 0);
     popover.permittedArrowDirections = UIPopoverArrowDirectionAny;
     [self presentViewController:nav animated:YES completion:nil];
     controller.delegate = self;
-//    [User sharedUser].bolPopupWaypoints = YES;
-}
 
+}
 -(UIModalPresentationStyle) adaptivePresentationStyleForPresentationController: (UIPresentationController * ) controller
 {
     return UIModalPresentationNone;
 }
 
--(void)selectedWaypoint:(NSString *)selectedWaypoint
+-(void)selectedWaypoint:(NSString *)selctedWaypoint
 {
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"strWptName ==  %@", selectedWaypoint];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"strWptName ==  %@", selctedWaypoint];
     NSArray *result = [[User sharedUser].arrayEnRouteWaypoints filteredArrayUsingPredicate: predicate];
     if ([result count] != 0) {
         NSUInteger indexOfTheObject = [[User sharedUser].arrayEnRouteWaypoints indexOfObject:result.firstObject];
@@ -1837,7 +1840,10 @@ didSelectAnnotationView:(MKAnnotationView *)view
     dblFlighttime = dblDecArrTime - dblDecDepTime;
     [User sharedUser].strTripDuration = [[NSString stringWithFormat:@"%02.0f",floor((dblFlighttime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblFlighttime)/3600 - floor((dblFlighttime)/3600))*60]];
     [SVProgressHUD dismiss];
-    [self createHeader];
+
+    for (objWPT *wpt in [User sharedUser].arrayEnRouteWaypoints) {
+        NSLog(@"~ %@ === %@ %@ %@", wpt.strWptName, wpt.strType, wpt.strLon, wpt);
+    }
 }
 
 
@@ -2000,6 +2006,7 @@ didSelectAnnotationView:(MKAnnotationView *)view
                 }
             }else {
                 if (bolWeather == YES){
+                    
                     [strWeather appendString:[NSString stringWithFormat:@"%@", line]];
                 }
             }

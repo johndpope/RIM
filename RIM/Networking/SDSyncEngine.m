@@ -7,7 +7,8 @@
 
 #import "SDSyncEngine.h"
 #import "SDCoreDataController.h"
-#import "SDAFParseAPIClient.h"
+// #import "SDAFParseAPIClient.h"
+#import "SDAFParse.h"
 #import "AFHTTPRequestOperation.h"
 #import "AppDelegate.h"
 #import <CoreData/CoreData.h>
@@ -122,31 +123,37 @@ NSString * const kSDSyncEngineSyncCompletedNotificationName = @"SDSyncEngineSync
         if (useUpdatedAtDate) {
             mostRecentUpdatedDate = [self mostRecentUpdatedAtDateForEntityWithName:className];
         }
-    
-        NSMutableURLRequest *request = [[SDAFParseAPIClient sharedClient] 
-                                        GETRequestForAllRecordsOfClass:className 
-                                        updatedAfterDate:mostRecentUpdatedDate];
-
-        AFHTTPRequestOperation *operation = [[SDAFParseAPIClient sharedClient] HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSMutableURLRequest *req = [[SDAFParse sharedClient] GETRequestForAllRecordsOfClass:className updatedAfterDate:mostRecentUpdatedDate];
+        
+        AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:req];
+        op.responseSerializer = [AFJSONResponseSerializer serializer];
+        
+        [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+             NSLog(@"downloadDataForRegisteredObjects %@", responseObject);
             if ([responseObject isKindOfClass:[NSDictionary class]]) {
                 [self writeJSONResponse:responseObject toDiskForClassWithName:className];
-            }            
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            }
+            
+        } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
             NSLog(@"Request for class %@ failed with error: %@", className, error);
         }];
         
-        [operations addObject:operation];
+        [operations addObject:op];
     }
     
-    [[SDAFParseAPIClient sharedClient] enqueueBatchOfHTTPRequestOperations:operations progressBlock:^(NSUInteger numberOfCompletedOperations, NSUInteger totalNumberOfOperations) {
-        
-    } completionBlock:^(NSArray *operations) {
+    NSArray *batchOfOperations = [AFURLConnectionOperation batchOfRequestOperations:operations progressBlock:nil completionBlock:^(NSArray * _Nonnull operations) {
         if (!toDelete) {
             [self processJSONDataRecordsIntoCoreData];
-        } else {
+        }
+        else {
             [self processJSONDataRecordsForDeletion];
         }
+        
     }];
+    
+    NSOperationQueue *opQueue= [[NSOperationQueue alloc] init];
+    [opQueue addOperations:batchOfOperations waitUntilFinished:NO];
 }
 
 - (void)processJSONDataRecordsIntoCoreData {
@@ -290,34 +297,34 @@ NSString * const kSDSyncEngineSyncCompletedNotificationName = @"SDSyncEngineSync
         NSArray *objectsToCreate = [self managedObjectsForClass:className withSyncStatus:SDObjectCreated];
         for (NSManagedObject *objectToCreate in objectsToCreate) {
             NSDictionary *jsonString = [objectToCreate JSONToCreateObjectOnServer];
-            NSMutableURLRequest *request = [[SDAFParseAPIClient sharedClient] POSTRequestForClass:className parameters:jsonString];
             
-            AFHTTPRequestOperation *operation = [[SDAFParseAPIClient sharedClient] HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            NSMutableURLRequest *req = [[SDAFParse sharedClient] POSTRequestForClass:className parameters:jsonString];
+            
+            AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:req];
+            op.responseSerializer = [AFJSONResponseSerializer serializer];
+            
+            [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
                 NSLog(@"Success creation: %@", responseObject);
                 NSDictionary *responseDictionary = responseObject;
                 NSDate *createdDate = [self dateUsingStringFromAPI:[responseDictionary valueForKey:@"createdAt"]];
                 [objectToCreate setValue:createdDate forKey:@"createdAt"];
                 [objectToCreate setValue:[responseDictionary valueForKey:@"objectId"] forKey:@"objectId"];
                 [objectToCreate setValue:[NSNumber numberWithInt:SDObjectSynced] forKey:@"syncStatus"];
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                
+            } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
                 NSLog(@"Failed creation: %@", error);
             }];
-            [operations addObject:operation];
+            
+            [operations addObject:op];
         }
     }
     
-    [[SDAFParseAPIClient sharedClient] enqueueBatchOfHTTPRequestOperations:operations progressBlock:^(NSUInteger numberOfCompletedOperations, NSUInteger totalNumberOfOperations) {
-        NSLog(@"Completed %lu of %lu create operations", (unsigned long)numberOfCompletedOperations, (unsigned long)totalNumberOfOperations);
-    } completionBlock:^(NSArray *operations) {
-        if ([operations count] > 0) {
-            NSLog(@"Creation of objects on server compelete, updated objects in context: %@", [[[SDCoreDataController sharedInstance] backgroundManagedObjectContext] updatedObjects]);
-            [[SDCoreDataController sharedInstance] saveBackgroundContext];
-            NSLog(@"SBC After call creation");
-        }
-        
-        [self deleteObjectsOnServer];
-        
+    NSArray *batchOfOperations = [AFURLConnectionOperation batchOfRequestOperations:operations progressBlock:nil completionBlock:^(NSArray * _Nonnull operations) {
+        [self processJSONDataRecordsIntoCoreData];
     }];
+    
+    NSOperationQueue *opQueue= [[NSOperationQueue alloc] init];
+    [opQueue addOperations:batchOfOperations waitUntilFinished:NO];
 }
 
 - (void)deleteObjectsOnServer {
@@ -325,30 +332,31 @@ NSString * const kSDSyncEngineSyncCompletedNotificationName = @"SDSyncEngineSync
     for (NSString *className in self.registeredClassesToSync) {
         NSArray *objectsToDelete = [self managedObjectsForClass:className withSyncStatus:SDObjectDeleted];
         for (NSManagedObject *objectToDelete in objectsToDelete) {
-            NSMutableURLRequest *request = [[SDAFParseAPIClient sharedClient]
-                                            DELETERequestForClass:className
-                                            forObjectWithId:[objectToDelete valueForKey:@"objectId"]];
             
-            AFHTTPRequestOperation *operation = [[SDAFParseAPIClient sharedClient] HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            NSMutableURLRequest *req = [[SDAFParse sharedClient] DELETERequestForClass:className forObjectWithId:[objectsToDelete valueForKey:@"objectId"]];
+            
+            AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:req];
+            op.responseSerializer = [AFJSONResponseSerializer serializer];
+            
+            [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
                 NSLog(@"Success deletion: %@", responseObject);
                 [[[SDCoreDataController sharedInstance] backgroundManagedObjectContext] deleteObject:objectToDelete];
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                
+            } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
                 NSLog(@"Failed to delete: %@", error);
+                
             }];
             
-            [operations addObject:operation];
+            [operations addObject:op];
         }
     }
     
-    [[SDAFParseAPIClient sharedClient] enqueueBatchOfHTTPRequestOperations:operations progressBlock:^(NSUInteger numberOfCompletedOperations, NSUInteger totalNumberOfOperations) {
-        
-    } completionBlock:^(NSArray *operations) {
-        if ([operations count] > 0) {
-            NSLog(@"Deletion of objects on server compelete, updated objects in context: %@", [[[SDCoreDataController sharedInstance] backgroundManagedObjectContext] updatedObjects]);
-        }
-        
-        [self executeSyncCompletedOperations];
+    NSArray *batchOfOperations = [AFURLConnectionOperation batchOfRequestOperations:operations progressBlock:nil completionBlock:^(NSArray * _Nonnull operations) {
+        [self processJSONDataRecordsIntoCoreData];
     }];
+    
+    NSOperationQueue *opQueue= [[NSOperationQueue alloc] init];
+    [opQueue addOperations:batchOfOperations waitUntilFinished:NO];
 }
 
 - (NSArray *)managedObjectsForClass:(NSString *)className withSyncStatus:(SDObjectSyncStatus)syncStatus {
@@ -435,6 +443,7 @@ NSString * const kSDSyncEngineSyncCompletedNotificationName = @"SDSyncEngineSync
 
 - (void)writeJSONResponse:(id)response toDiskForClassWithName:(NSString *)className {
     NSURL *fileURL = [NSURL URLWithString:className relativeToURL:[self JSONDataRecordsDirectory]];
+    // NSURL *fileURL = [NSURL URLWithString:[[NSString stringWithFormat:@"%@", [[self JSONDataRecordsDirectory] path]] stringByAppendingPathComponent:className]];
     if (![(NSDictionary *)response writeToFile:[fileURL path] atomically:YES]) {
         NSLog(@"Error saving response to disk, will attempt to remove NSNull values and try again.");
         // remove NSNulls and try again...

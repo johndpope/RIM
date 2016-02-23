@@ -12,7 +12,7 @@
 
 @interface User : NSObject {
     NSMutableArray *arrayAllCompanyAirports;
-
+    BOOL bolPopupWaypoints;
     // Sunrise-Sunset
     BOOL bolCalcSSSR;
     //MapPointFocus
@@ -351,6 +351,7 @@
 }
 @property (nonatomic, strong) NSMutableArray *arrayAllCompanyAirports;
 
+@property (nonatomic)BOOL bolPopupWaypoints;
 
 
 // Sunrise-Sunset

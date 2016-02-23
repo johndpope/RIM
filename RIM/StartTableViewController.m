@@ -71,8 +71,8 @@ NSString * const DateFormat = @"dd/MMM/yyyy";
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
     
-    [self.tableView setBackgroundView:nil];
-    [self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Etihad.JPG"]] ];
+//    [self.tableView setBackgroundView:nil];
+//    [self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Etihad.JPG"]] ];
     self.tableView.rowHeight = 55;
     [self.navigationController.navigationBar setBounds :CGRectMake(0, 0, 320, 100)];
     //        btnFlightplan = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"waypoint_map-25.png"] style:UIBarButtonItemStylePlain target:self action:@selector(chooseFlightPlanButtonTapped:)];
@@ -82,19 +82,38 @@ NSString * const DateFormat = @"dd/MMM/yyyy";
 //    btnInfo = [[UIBarButtonItem alloc]initWithTitle:@"" style:UIBarButtonItemStylePlain target:self action:@selector(infoButtonTapped:)];
     btnAircraft = [[UIBarButtonItem alloc]initWithTitle:@"| Aircraft |" style:UIBarButtonItemStylePlain target:self action:@selector(chooseAircraftButtonTapped:)];
     btnFlightplan = [[UIBarButtonItem alloc] initWithTitle:@"| FlightPlan |" style:UIBarButtonItemStylePlain target:self action:@selector(chooseFlightPlanButtonTapped:)];
+    // Blur Effect
+//    UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+//    UIVisualEffectView *bluredEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+//    [bluredEffectView setFrame:self.tableView.bounds];
+    
+//    [self.tableView addSubview:bluredEffectView];
+//    if (!UIAccessibilityIsReduceTransparencyEnabled()) {
+//        self.tableView.backgroundColor = [UIColor clearColor];
+//        
+//        UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+//        UIVisualEffectView *blurEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+//        blurEffectView.frame = self.view.bounds;
+//        blurEffectView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+//        
+//        [self.tableView addSubview:blurEffectView];
+//    }
+//    else {
+//        self.tableView.backgroundColor = [UIColor blackColor];
+//    }
 //    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:btnFlightplan, btnAircraft, nil]];
 //    [self.navigationItem setRightBarButtonItems:[NSArray arrayWithObjects:btnRefresh, btnInfo, nil]];
 //    [self createHeader];
     //    UITabBarItem *tabBarItem = [[[[self tabBarController]tabBar]items] objectAtIndex:1];
     //    [tabBarItem setEnabled:FALSE];
     
-    
+//    self.backgroundColorView.opaque = NO; self.backgroundColorView.alpha = 0.5; self.backgroundColorView.backgroundColor = [UIColor colorWithWhite:0.3 alpha:1];
 }
 - (void)tableView:(UITableView *)tableView
   willDisplayCell:(UITableViewCell *)cell
 forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-   }
+}
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -124,6 +143,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
+//    [User sharedUser].bolPopupWaypoints = YES;
+
 //    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"SDSyncEngineSyncCompleted" object:nil];
 //    [[SDSyncEngine sharedEngine] removeObserver:self forKeyPath:@"syncInProgress"];
 }
@@ -1831,8 +1852,13 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
     
     if ([cell.lblLat.text isEqualToString:@""]) {
         cell.userInteractionEnabled = NO;
+        if ([cell.lblPage.text isEqualToString:@""]) {
+            
+        }else{
+            cell.userInteractionEnabled = YES;
+        }
     }else{
-        cell.userInteractionEnabled = YES;
+            cell.userInteractionEnabled = YES;
     }
     
     return cell;
@@ -2397,6 +2423,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                             for (Result in [User sharedUser].arrayResults){
                                 if([Result.strWptName isEqualToString:@"Fajr"]){
                                     found = YES;
+                                    [[User sharedUser].arrayResults removeObject: Result];
                                     break;
                                 }
                             }
@@ -2409,7 +2436,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                         [[User sharedUser].arrayLog removeObjectAtIndex:indexOfTheObject];
                                     }
                                 }
-                                [[User sharedUser].arrayResults removeObject: Result];
+//                                [[User sharedUser].arrayResults removeObject: Result];
                                 SunFlightresults *Result = [[SunFlightresults alloc] init];
                                 Result.strWptName = @"Fajr";
                                 Result.strType = @"Prayer";
@@ -2418,6 +2445,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 Result.strFlightLevel = objLogWpt.strFL;
                                 Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                 [[User sharedUser].arrayResults addObject: Result];
+                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 objLogSSSR.strType = @"Prayer";
                                 objLogSSSR.strWptName = @"Fajr";
                                 objLogSSSR.strWptAirway = [User sharedUser].strFajr;
@@ -2431,7 +2459,6 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 
                             }else{
                                 SunFlightresults *Result = [[SunFlightresults alloc] init];
-                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 Result.strWptName = @"Fajr";
                                 Result.strType = @"Prayer";
                                 Result.strTime = [User sharedUser].strFajr;
@@ -2439,6 +2466,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 Result.strFlightLevel = objLogWpt.strFL;
                                 Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",(dblCETTime/3600 - floor(dblCETTime/3600))*60]];
                                 [[User sharedUser].arrayResults addObject: Result];
+                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 objLogSSSR.strType = @"Prayer";
                                 objLogSSSR.strWptName = @"Fajr";
                                 objLogSSSR.strWptAirway = [User sharedUser].strFajr;
@@ -2483,6 +2511,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 for (Result in [User sharedUser].arrayResults){
                                     if([Result.strWptName isEqualToString:@"Fajr (2)"]){
                                         found = YES;
+                                        [[User sharedUser].arrayResults removeObject: Result];
                                         break;
                                     }
                                 }
@@ -2495,7 +2524,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                             [[User sharedUser].arrayLog removeObjectAtIndex:indexOfTheObject];
                                         }
                                     }
-                                    [[User sharedUser].arrayResults removeObject: Result];
+//                                    [[User sharedUser].arrayResults removeObject: Result];
                                     SunFlightresults *Result = [[SunFlightresults alloc] init];
                                     Result.strWptName = @"Fajr (2)";
                                     Result.strType = @"Prayer";
@@ -2518,7 +2547,6 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                     
                                 }else{
                                     SunFlightresults *Result = [[SunFlightresults alloc] init];
-                                    objLog *objLogSSSR = [[objLog alloc ]init];
                                     Result.strWptName = @"Fajr (2)";
                                     Result.strType = @"Prayer";
                                     Result.strTime = [User sharedUser].strFajr2;
@@ -2526,6 +2554,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                     Result.strFlightLevel = objLogWpt.strFL;
                                     Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                     [[User sharedUser].arrayResults addObject: Result];
+                                    objLog *objLogSSSR = [[objLog alloc ]init];
                                     objLogSSSR.strType = @"Prayer";
                                     objLogSSSR.strWptName = @"Fajr (2)";
                                     objLogSSSR.strWptAirway = [User sharedUser].strFajr2;
@@ -2606,6 +2635,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                             for (Result in [User sharedUser].arrayResults){
                                 if([Result.strWptName isEqualToString:@"Isha"]){
                                     found = YES;
+                                    [[User sharedUser].arrayResults removeObject: Result];
                                     break;
                                 }
                             }
@@ -2618,7 +2648,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                         [[User sharedUser].arrayLog removeObjectAtIndex:indexOfTheObject];
                                     }
                                 }
-                                [[User sharedUser].arrayResults removeObject: Result];
+//                                [[User sharedUser].arrayResults removeObject: Result];
                                 SunFlightresults *Result = [[SunFlightresults alloc] init];
                                 Result.strWptName = @"Isha";
                                 Result.strType = @"Prayer";
@@ -2627,6 +2657,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 Result.strFlightLevel = objLogWpt.strFL;
                                 Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                 [[User sharedUser].arrayResults addObject: Result];
+                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 objLogSSSR.strType = @"Prayer";
                                 objLogSSSR.strWptName = @"Isha";
                                 objLogSSSR.strWptAirway = [User sharedUser].strIsha;
@@ -2640,7 +2671,6 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 
                             }else{
                                 SunFlightresults *Result = [[SunFlightresults alloc] init];
-                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 Result.strWptName = @"Isha";
                                 Result.strType = @"Prayer";
                                 Result.strTime = [User sharedUser].strIsha;
@@ -2648,6 +2678,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 Result.strFlightLevel = objLogWpt.strFL;
                                 Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                 [[User sharedUser].arrayResults addObject: Result];
+                                objLog *objLogSSSR = [[objLog alloc ]init];
                                 objLogSSSR.strType = @"Prayer";
                                 objLogSSSR.strWptName = @"Isha";
                                 objLogSSSR.strWptAirway = [User sharedUser].strIsha;
@@ -2662,6 +2693,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                             
                         }else{
                             if ((IntLooptime - intlooptimeisha) > 3600 ) {
+                                SunFlightresults *Result;
                                 [User sharedUser].bolIsha2 = YES;
                                 [User sharedUser].strIsha2 = [[[NSString alloc] initWithFormat:@"%.2li:%.2li", (long)intHoursIsha, (long)intMinutesIsha] stringByAppendingString:@" UTC"];
                                 NSInteger intIshaLCL = intIsha + [User sharedUser].IntTimeZone;
@@ -2683,12 +2715,13 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 NSInteger intMinutesIshaLCL;
                                 intMinutesIshaLCL = [totalMinutes intValue];
                                 [User sharedUser].strIshaLCL2 = [[[NSString alloc] initWithFormat:@"%.2li:%.2li", (long)intHoursIshaLCL, (long)intMinutesIshaLCL] stringByAppendingString:@" LCL"];
-                                SunFlightresults *Result = [[SunFlightresults alloc] init];
+                                Result = [[SunFlightresults alloc] init];
                                 objLog *objLogSSSR = [[objLog alloc ]init];
                                 BOOL found = NO;
                                 for (Result in [User sharedUser].arrayResults){
                                     if([Result.strWptName isEqualToString:@"Isha (2)"]){
                                         found = YES;
+                                        [[User sharedUser].arrayResults removeObject: Result];
                                         break;
                                     }
                                 }
@@ -2701,7 +2734,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                             [[User sharedUser].arrayLog removeObjectAtIndex:indexOfTheObject];
                                         }
                                     }
-                                    [[User sharedUser].arrayResults removeObject: Result];
+//                                    [[User sharedUser].arrayResults removeObject: Result];
                                     SunFlightresults *Result = [[SunFlightresults alloc] init];
                                     Result.strWptName = @"Isha (2)";
                                     Result.strType = @"Prayer";
@@ -2710,6 +2743,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                     Result.strFlightLevel = objLogWpt.strFL;
                                     Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                     [[User sharedUser].arrayResults addObject: Result];
+                                    objLog *objLogSSSR = [[objLog alloc ]init];
                                     objLogSSSR.strType = @"Prayer";
                                     objLogSSSR.strWptName = @"Isha (2)";
                                     objLogSSSR.strWptAirway = [User sharedUser].strIsha2;
@@ -2730,6 +2764,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                     Result.strFlightLevel = objLogWpt.strFL;
                                     Result.strCET = [[NSString stringWithFormat:@"%02.0f",floor((dblCETTime)/3600)]stringByAppendingString:[NSString stringWithFormat:@"%02.0f",((dblCETTime)/3600 - floor((dblCETTime)/3600))*60]];
                                     [[User sharedUser].arrayResults addObject: Result];
+                                    objLog *objLogSSSR = [[objLog alloc ]init];
                                     objLogSSSR.strType = @"Prayer";
                                     objLogSSSR.strWptName = @"Isha (2)";
                                     objLogSSSR.strWptAirway = [User sharedUser].strIsha2;
@@ -2865,11 +2900,12 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                             for (Result in [User sharedUser].arrayResults){
                                 if([Result.strWptName isEqualToString:@"Sunrise"]){
                                     found = YES;
+                                    [[User sharedUser].arrayResults removeObject: Result];
                                     break;
                                 }
                             }
                             if (found){
-                                [[User sharedUser].arrayResults removeObject: Result];
+//                                [[User sharedUser].arrayResults removeObject: Result];
                                 objLog *objLogSSSR = [[objLog alloc ]init];
                                 for (objLogSSSR in [User sharedUser].arrayResults){
                                     if([objLogSSSR.strWptName isEqualToString:@"Sunrise"]){
@@ -3029,11 +3065,12 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 for (Result in [User sharedUser].arrayResults){
                                     if([Result.strWptName isEqualToString:@"Sunrise (2)"]){
                                         found = YES;
+                                        [[User sharedUser].arrayResults removeObject: Result];
                                         break;
                                     }
                                 }
                                 if (found){
-                                    [[User sharedUser].arrayResults removeObject: Result];
+//                                    [[User sharedUser].arrayResults removeObject: Result];
                                     for (objLogSSSR in [User sharedUser].arrayResults){
                                         if([objLogSSSR.strWptName isEqualToString:@"Sunrise (2)"]){
                                             NSPredicate *predicate = [NSPredicate predicateWithFormat:@"strWptName ==  %@", objLogSSSR.strWptName];
@@ -3207,11 +3244,12 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                             for (Result in [User sharedUser].arrayResults){
                                 if([Result.strWptName isEqualToString:@"Sunset"]){
                                     found = YES;
+                                    [[User sharedUser].arrayResults removeObject: Result];
                                     break;
                                 }
                             }
                             if (found){
-                                [[User sharedUser].arrayResults removeObject: Result];
+//                                [[User sharedUser].arrayResults removeObject: Result];
                                 for (objLogSSSR in [User sharedUser].arrayResults){
                                     if([objLogSSSR.strWptName isEqualToString:@"Sunset"]){
                                         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"strWptName ==  %@", objLogSSSR.strWptName];
@@ -3343,11 +3381,12 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
                                 for (Result in [User sharedUser].arrayResults){
                                     if([Result.strWptName isEqualToString:@"Sunset (2)"]){
                                         found = YES;
+                                        [[User sharedUser].arrayResults removeObject: Result];
                                         break;
                                     }
                                 }
                                 if (found){
-                                    [[User sharedUser].arrayResults removeObject: Result];
+//                                    [[User sharedUser].arrayResults removeObject: Result];
                                     for (objLogSSSR in [User sharedUser].arrayResults){
                                         if([objLogSSSR.strWptName isEqualToString:@"Sunset (2)"]){
                                             NSPredicate *predicate = [NSPredicate predicateWithFormat:@"strWptName ==  %@", objLogSSSR.strWptName];

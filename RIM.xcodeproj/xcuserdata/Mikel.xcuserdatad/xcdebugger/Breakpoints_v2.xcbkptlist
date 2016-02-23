@@ -2488,11 +2488,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "454220049.126847"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2504,11 +2504,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "454220049.126847"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2520,11 +2520,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "454220049.126847"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2552,11 +2552,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "454220049.126847"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "-setAirport:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2568,11 +2568,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "454220049.126847"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-setAirport:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2616,11 +2616,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "475687240.683799"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2632,11 +2632,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "475687240.683799"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -2712,11 +2712,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "475687240.683799"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -3847,8 +3847,8 @@
                   symbolName = "__32-[ReaderMainToolbar hideToolbar]_block_invoke"
                   moduleName = "RIM"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.5%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
-                  timestampString = "475911223.315551"
+                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.6%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
+                  timestampString = "476780090.874077"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "300"
@@ -3862,8 +3862,8 @@
                   symbolName = "__copy_helper_block_"
                   moduleName = "RIM"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.5%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
-                  timestampString = "475911223.315668"
+                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.6%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
+                  timestampString = "476780090.874205"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -3877,8 +3877,8 @@
                   symbolName = "__destroy_helper_block_"
                   moduleName = "RIM"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.5%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
-                  timestampString = "475911223.315779"
+                  urlString = "file:///Users/Mikel/Dropbox/Projects/RIM1.0%20BuidV1.6%20iOS9%20PDF/RIM/RIM/PDF%20Reader/Sources/ReaderMainToolbar.m"
+                  timestampString = "476780090.874319"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -5799,11 +5799,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "965"
-            endingLineNumber = "965"
+            startingLineNumber = "963"
+            endingLineNumber = "963"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -5993,11 +5993,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "475687240.683799"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6073,11 +6073,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/FlightPlanPickerTableViewController.m"
-            timestampString = "462524620.258121"
+            timestampString = "476619953.726366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6105,11 +6105,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6137,11 +6137,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/FlightPlanPickerTableViewController.m"
-            timestampString = "475742667.293965"
+            timestampString = "476619953.726366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "-applicationEnteredForeground:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6153,11 +6153,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/FlightPlanPickerTableViewController.m"
-            timestampString = "475742667.293965"
+            timestampString = "476619953.726366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-appplicationIsActive:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6169,11 +6169,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "704"
-            endingLineNumber = "704"
+            startingLineNumber = "702"
+            endingLineNumber = "702"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -6185,7 +6185,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "778"
+            endingLineNumber = "778"
+            landmarkName = "-loadCircles60"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "780"
@@ -6201,27 +6217,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "782"
-            endingLineNumber = "782"
-            landmarkName = "-loadCircles60"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "785"
-            endingLineNumber = "785"
+            startingLineNumber = "783"
+            endingLineNumber = "783"
             landmarkName = "-loadCircles60"
             landmarkType = "5">
          </BreakpointContent>
@@ -6329,11 +6329,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6345,11 +6345,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "970"
-            endingLineNumber = "970"
+            startingLineNumber = "968"
+            endingLineNumber = "968"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -6361,11 +6361,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6377,11 +6377,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6393,11 +6393,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6409,11 +6409,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "600"
-            endingLineNumber = "600"
+            startingLineNumber = "598"
+            endingLineNumber = "598"
             landmarkName = "-willAnimateRotationToInterfaceOrientation:duration:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6425,11 +6425,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6441,11 +6441,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/PopOverAirportTableViewController.m"
-            timestampString = "475309689.833361"
+            timestampString = "476467055.735639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
             <Locations>
@@ -6489,11 +6489,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "476"
-            endingLineNumber = "476"
+            startingLineNumber = "474"
+            endingLineNumber = "474"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -6505,11 +6505,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "214"
-            endingLineNumber = "214"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6521,11 +6521,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
             landmarkName = "-mapView:rendererForOverlay:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6537,11 +6537,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "217"
-            endingLineNumber = "217"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6553,11 +6553,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6569,11 +6569,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6743,11 +6743,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "439"
-            endingLineNumber = "439"
+            startingLineNumber = "437"
+            endingLineNumber = "437"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -6823,11 +6823,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1615"
-            endingLineNumber = "1615"
+            startingLineNumber = "1636"
+            endingLineNumber = "1636"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6839,11 +6839,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1631"
-            endingLineNumber = "1631"
+            startingLineNumber = "1652"
+            endingLineNumber = "1652"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6855,11 +6855,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1633"
-            endingLineNumber = "1633"
+            startingLineNumber = "1654"
+            endingLineNumber = "1654"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6871,11 +6871,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1683"
-            endingLineNumber = "1683"
+            startingLineNumber = "1704"
+            endingLineNumber = "1704"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6887,11 +6887,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1682"
-            endingLineNumber = "1682"
+            startingLineNumber = "1703"
+            endingLineNumber = "1703"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6903,11 +6903,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1694"
-            endingLineNumber = "1694"
+            startingLineNumber = "1715"
+            endingLineNumber = "1715"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6919,11 +6919,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1665"
-            endingLineNumber = "1665"
+            startingLineNumber = "1686"
+            endingLineNumber = "1686"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6935,11 +6935,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1693"
-            endingLineNumber = "1693"
+            startingLineNumber = "1714"
+            endingLineNumber = "1714"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6951,11 +6951,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1666"
-            endingLineNumber = "1666"
+            startingLineNumber = "1687"
+            endingLineNumber = "1687"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6967,11 +6967,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1755"
-            endingLineNumber = "1755"
+            startingLineNumber = "1776"
+            endingLineNumber = "1776"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6983,11 +6983,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1692"
-            endingLineNumber = "1692"
+            startingLineNumber = "1713"
+            endingLineNumber = "1713"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -6999,11 +6999,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1202"
-            endingLineNumber = "1202"
+            startingLineNumber = "1223"
+            endingLineNumber = "1223"
             landmarkName = "-searchAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -7015,11 +7015,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1200"
-            endingLineNumber = "1200"
+            startingLineNumber = "1221"
+            endingLineNumber = "1221"
             landmarkName = "-searchAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -7031,11 +7031,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1620"
-            endingLineNumber = "1620"
+            startingLineNumber = "1641"
+            endingLineNumber = "1641"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -7047,11 +7047,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1617"
-            endingLineNumber = "1617"
+            startingLineNumber = "1638"
+            endingLineNumber = "1638"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -7159,711 +7159,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "974"
-            endingLineNumber = "974"
-            landmarkName = "-loadRoute"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1078"
-            endingLineNumber = "1078"
-            landmarkName = "-loadRoute"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1050"
-            endingLineNumber = "1050"
-            landmarkName = "-loadRoute"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1621"
-            endingLineNumber = "1621"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1623"
-            endingLineNumber = "1623"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1667"
-            endingLineNumber = "1667"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475684312.414245"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1696"
-            endingLineNumber = "1696"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1618"
-            endingLineNumber = "1618"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3460"
-            endingLineNumber = "3460"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2109"
-            endingLineNumber = "2109"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2097"
-            endingLineNumber = "2097"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2271"
-            endingLineNumber = "2271"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1977"
-            endingLineNumber = "1977"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1995"
-            endingLineNumber = "1995"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1981"
-            endingLineNumber = "1981"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1985"
-            endingLineNumber = "1985"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1991"
-            endingLineNumber = "1991"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3450"
-            endingLineNumber = "3450"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1992"
-            endingLineNumber = "1992"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2204"
-            endingLineNumber = "2204"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2337"
-            endingLineNumber = "2337"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2335"
-            endingLineNumber = "2335"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2263"
-            endingLineNumber = "2263"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1989"
-            endingLineNumber = "1989"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1988"
-            endingLineNumber = "1988"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2367"
-            endingLineNumber = "2367"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2574"
-            endingLineNumber = "2574"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2802"
-            endingLineNumber = "2802"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3152"
-            endingLineNumber = "3152"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2115"
-            endingLineNumber = "2115"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2112"
-            endingLineNumber = "2112"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2272"
-            endingLineNumber = "2272"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2093"
-            endingLineNumber = "2093"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2212"
-            endingLineNumber = "2212"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2255"
-            endingLineNumber = "2255"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2252"
-            endingLineNumber = "2252"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2088"
-            endingLineNumber = "2088"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2251"
-            endingLineNumber = "2251"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2260"
-            endingLineNumber = "2260"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2116"
-            endingLineNumber = "2116"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2210"
-            endingLineNumber = "2210"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2211"
-            endingLineNumber = "2211"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2165"
-            endingLineNumber = "2165"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2151"
-            endingLineNumber = "2151"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "972"
@@ -7878,12 +7174,124 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3456"
-            endingLineNumber = "3456"
+            startingLineNumber = "1076"
+            endingLineNumber = "1076"
+            landmarkName = "-loadRoute"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1048"
+            endingLineNumber = "1048"
+            landmarkName = "-loadRoute"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476457534.594979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1642"
+            endingLineNumber = "1642"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476457534.594979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1644"
+            endingLineNumber = "1644"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476457534.594979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1688"
+            endingLineNumber = "1688"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476457534.594979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1717"
+            endingLineNumber = "1717"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476457534.594979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1639"
+            endingLineNumber = "1639"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3499"
+            endingLineNumber = "3499"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7895,11 +7303,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3462"
-            endingLineNumber = "3462"
+            startingLineNumber = "2135"
+            endingLineNumber = "2135"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7911,11 +7319,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3451"
-            endingLineNumber = "3451"
+            startingLineNumber = "2123"
+            endingLineNumber = "2123"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7927,11 +7335,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3453"
-            endingLineNumber = "3453"
+            startingLineNumber = "2297"
+            endingLineNumber = "2297"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7943,11 +7351,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3452"
-            endingLineNumber = "3452"
+            startingLineNumber = "2003"
+            endingLineNumber = "2003"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7959,11 +7367,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1958"
-            endingLineNumber = "1958"
+            startingLineNumber = "2021"
+            endingLineNumber = "2021"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7975,11 +7383,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3279"
-            endingLineNumber = "3279"
+            startingLineNumber = "2007"
+            endingLineNumber = "2007"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -7991,11 +7399,667 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3167"
-            endingLineNumber = "3167"
+            startingLineNumber = "2011"
+            endingLineNumber = "2011"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2017"
+            endingLineNumber = "2017"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3489"
+            endingLineNumber = "3489"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2018"
+            endingLineNumber = "2018"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2230"
+            endingLineNumber = "2230"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2363"
+            endingLineNumber = "2363"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2361"
+            endingLineNumber = "2361"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2289"
+            endingLineNumber = "2289"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2015"
+            endingLineNumber = "2015"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2014"
+            endingLineNumber = "2014"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2393"
+            endingLineNumber = "2393"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2603"
+            endingLineNumber = "2603"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2837"
+            endingLineNumber = "2837"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3189"
+            endingLineNumber = "3189"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2141"
+            endingLineNumber = "2141"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2138"
+            endingLineNumber = "2138"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2298"
+            endingLineNumber = "2298"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2119"
+            endingLineNumber = "2119"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2238"
+            endingLineNumber = "2238"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2281"
+            endingLineNumber = "2281"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2278"
+            endingLineNumber = "2278"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2114"
+            endingLineNumber = "2114"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2277"
+            endingLineNumber = "2277"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2286"
+            endingLineNumber = "2286"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2142"
+            endingLineNumber = "2142"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2236"
+            endingLineNumber = "2236"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2237"
+            endingLineNumber = "2237"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2191"
+            endingLineNumber = "2191"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2177"
+            endingLineNumber = "2177"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "970"
+            endingLineNumber = "970"
+            landmarkName = "-loadRoute"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3495"
+            endingLineNumber = "3495"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3501"
+            endingLineNumber = "3501"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3490"
+            endingLineNumber = "3490"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3492"
+            endingLineNumber = "3492"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3491"
+            endingLineNumber = "3491"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1984"
+            endingLineNumber = "1984"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3317"
+            endingLineNumber = "3317"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3204"
+            endingLineNumber = "3204"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3329"
+            endingLineNumber = "3329"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2357"
+            endingLineNumber = "2357"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3326"
+            endingLineNumber = "3326"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3240"
+            endingLineNumber = "3240"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8007,11 +8071,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3291"
-            endingLineNumber = "3291"
+            startingLineNumber = "3260"
+            endingLineNumber = "3260"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8023,75 +8087,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2331"
-            endingLineNumber = "2331"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3288"
-            endingLineNumber = "3288"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3203"
-            endingLineNumber = "3203"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3222"
-            endingLineNumber = "3222"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "3254"
-            endingLineNumber = "3254"
+            startingLineNumber = "3292"
+            endingLineNumber = "3292"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8135,11 +8135,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/SunriseSunset/SunriseSunsetTableViewController.m"
-            timestampString = "462519457.293119"
+            timestampString = "476344068.90401"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "288"
-            endingLineNumber = "288"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
             landmarkName = "-switchAction:"
             landmarkType = "5">
          </BreakpointContent>
@@ -8151,11 +8151,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/SunriseSunset/SunriseSunsetTableViewController.m"
-            timestampString = "462519457.293119"
+            timestampString = "476344068.90401"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
             landmarkName = "-switchAction:"
             landmarkType = "5">
          </BreakpointContent>
@@ -8295,11 +8295,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2201"
-            endingLineNumber = "2201"
+            startingLineNumber = "2227"
+            endingLineNumber = "2227"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8311,11 +8311,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2321"
-            endingLineNumber = "2321"
+            startingLineNumber = "2347"
+            endingLineNumber = "2347"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8327,11 +8327,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2265"
-            endingLineNumber = "2265"
+            startingLineNumber = "2291"
+            endingLineNumber = "2291"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -8935,11 +8935,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "368"
-            endingLineNumber = "368"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -8951,11 +8951,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "381"
+            endingLineNumber = "381"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -8967,11 +8967,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "374"
-            endingLineNumber = "374"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -8983,11 +8983,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "379"
-            endingLineNumber = "379"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9127,11 +9127,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475665458.304929"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1578"
-            endingLineNumber = "1578"
+            startingLineNumber = "1599"
+            endingLineNumber = "1599"
             landmarkName = "-loadAlternates"
             landmarkType = "5">
          </BreakpointContent>
@@ -9367,11 +9367,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475686391.944154"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1897"
-            endingLineNumber = "1897"
+            startingLineNumber = "1923"
+            endingLineNumber = "1923"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9399,11 +9399,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "653"
-            endingLineNumber = "653"
+            startingLineNumber = "651"
+            endingLineNumber = "651"
             landmarkName = "-zoomInOnWaypoint"
             landmarkType = "5">
          </BreakpointContent>
@@ -9415,11 +9415,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "968"
-            endingLineNumber = "968"
+            startingLineNumber = "966"
+            endingLineNumber = "966"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -9431,11 +9431,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "656"
-            endingLineNumber = "656"
+            startingLineNumber = "654"
+            endingLineNumber = "654"
             landmarkName = "-zoomInOnWaypoint"
             landmarkType = "5">
          </BreakpointContent>
@@ -9463,11 +9463,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
             landmarkName = "-mapView:annotationView:calloutAccessoryControlTapped:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9479,11 +9479,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1023"
-            endingLineNumber = "1023"
+            startingLineNumber = "1021"
+            endingLineNumber = "1021"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -9495,11 +9495,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1022"
-            endingLineNumber = "1022"
+            startingLineNumber = "1020"
+            endingLineNumber = "1020"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -9511,11 +9511,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "976"
-            endingLineNumber = "976"
+            startingLineNumber = "974"
+            endingLineNumber = "974"
             landmarkName = "-loadRoute"
             landmarkType = "5">
          </BreakpointContent>
@@ -9527,11 +9527,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "753"
-            endingLineNumber = "753"
+            startingLineNumber = "751"
+            endingLineNumber = "751"
             landmarkName = "-loadAllAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9543,11 +9543,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "825"
-            endingLineNumber = "825"
+            startingLineNumber = "823"
+            endingLineNumber = "823"
             landmarkName = "-removeCompanyAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9559,11 +9559,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "828"
-            endingLineNumber = "828"
+            startingLineNumber = "826"
+            endingLineNumber = "826"
             landmarkName = "-removeCompanyAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9575,11 +9575,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "750"
-            endingLineNumber = "750"
+            startingLineNumber = "748"
+            endingLineNumber = "748"
             landmarkName = "-loadAllAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9591,55 +9591,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "765"
-            endingLineNumber = "765"
-            landmarkName = "-loadAllAirports"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "769"
-            endingLineNumber = "769"
-            landmarkName = "-loadAllAirports"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "743"
-            endingLineNumber = "743"
-            landmarkName = "-loadAllAirports"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "763"
@@ -9655,11 +9607,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
+            startingLineNumber = "767"
+            endingLineNumber = "767"
+            landmarkName = "-loadAllAirports"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "741"
+            endingLineNumber = "741"
+            landmarkName = "-loadAllAirports"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "761"
+            endingLineNumber = "761"
+            landmarkName = "-loadAllAirports"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9719,11 +9719,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
+            startingLineNumber = "421"
+            endingLineNumber = "421"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9735,11 +9735,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/PopOverAirportTableViewController.m"
-            timestampString = "475309689.833361"
+            timestampString = "476467055.735639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9767,11 +9767,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1095"
-            endingLineNumber = "1095"
+            startingLineNumber = "1093"
+            endingLineNumber = "1093"
             landmarkName = "-loadGreatCircle"
             landmarkType = "5">
          </BreakpointContent>
@@ -9783,7 +9783,55 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475573934.274687"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-mapView:rendererForOverlay:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1080"
+            endingLineNumber = "1080"
+            landmarkName = "-loadRoute"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-mapView:rendererForOverlay:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "113"
@@ -9799,27 +9847,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1082"
-            endingLineNumber = "1082"
-            landmarkName = "-loadRoute"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-mapView:rendererForOverlay:"
             landmarkType = "5">
          </BreakpointContent>
@@ -9831,43 +9863,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475573934.274687"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "-mapView:rendererForOverlay:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475573934.274687"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "-mapView:rendererForOverlay:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "709"
-            endingLineNumber = "709"
+            startingLineNumber = "707"
+            endingLineNumber = "707"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9879,11 +9879,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "705"
-            endingLineNumber = "705"
+            startingLineNumber = "703"
+            endingLineNumber = "703"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9895,11 +9895,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "716"
-            endingLineNumber = "716"
+            startingLineNumber = "714"
+            endingLineNumber = "714"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9911,11 +9911,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "724"
-            endingLineNumber = "724"
+            startingLineNumber = "722"
+            endingLineNumber = "722"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9927,11 +9927,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "732"
-            endingLineNumber = "732"
+            startingLineNumber = "730"
+            endingLineNumber = "730"
             landmarkName = "-loadEnrouteAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -9943,11 +9943,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "626"
-            endingLineNumber = "626"
+            startingLineNumber = "624"
+            endingLineNumber = "624"
             landmarkName = "-createHeader"
             landmarkType = "5">
          </BreakpointContent>
@@ -9959,11 +9959,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1091"
-            endingLineNumber = "1091"
+            startingLineNumber = "1089"
+            endingLineNumber = "1089"
             landmarkName = "-loadGreatCircle"
             landmarkType = "5">
          </BreakpointContent>
@@ -9975,11 +9975,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1099"
-            endingLineNumber = "1099"
+            startingLineNumber = "1097"
+            endingLineNumber = "1097"
             landmarkName = "-loadGreatCircle"
             landmarkType = "5">
          </BreakpointContent>
@@ -9991,11 +9991,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1141"
-            endingLineNumber = "1141"
+            startingLineNumber = "1139"
+            endingLineNumber = "1139"
             landmarkName = "-createGreatCircleMKPolylineFromPoint:toPoint:forMapView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10007,11 +10007,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1164"
-            endingLineNumber = "1164"
+            startingLineNumber = "1162"
+            endingLineNumber = "1162"
             landmarkName = "-createGreatCircleMKPolylineFromPoint:toPoint:forMapView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10023,11 +10023,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475780349.373301"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1851"
-            endingLineNumber = "1851"
+            startingLineNumber = "1849"
+            endingLineNumber = "1849"
             landmarkName = "-readWeather"
             landmarkType = "5">
          </BreakpointContent>
@@ -10039,11 +10039,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "568"
-            endingLineNumber = "568"
+            startingLineNumber = "566"
+            endingLineNumber = "566"
             landmarkName = "-showRouteonMap"
             landmarkType = "5">
          </BreakpointContent>
@@ -10055,11 +10055,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "633"
-            endingLineNumber = "633"
+            startingLineNumber = "631"
+            endingLineNumber = "631"
             landmarkName = "-createHeader"
             landmarkType = "5">
          </BreakpointContent>
@@ -10071,11 +10071,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/PopOverAirportTableViewController.m"
-            timestampString = "475309689.833361"
+            timestampString = "476467055.735639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-tableView:titleForHeaderInSection:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10151,11 +10151,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "515"
-            endingLineNumber = "515"
+            startingLineNumber = "513"
+            endingLineNumber = "513"
             landmarkName = "-viewDidDisappear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10167,11 +10167,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "532"
-            endingLineNumber = "532"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
             landmarkName = "-replaceRefreshButtonWithActivityIndicator"
             landmarkType = "5">
          </BreakpointContent>
@@ -10183,7 +10183,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "523"
+            endingLineNumber = "523"
+            landmarkName = "-checkSyncStatus"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/os4MapsViewController.m"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "525"
@@ -10199,27 +10215,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "527"
-            endingLineNumber = "527"
-            landmarkName = "-checkSyncStatus"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "495"
-            endingLineNumber = "495"
+            startingLineNumber = "493"
+            endingLineNumber = "493"
             landmarkName = "-viewWillAppear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10247,11 +10247,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "521"
-            endingLineNumber = "521"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
             landmarkName = "-applicationEnteredForeground:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10263,11 +10263,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "552"
-            endingLineNumber = "552"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
             landmarkName = "-appplicationIsActive:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10279,11 +10279,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/FlightPlanPickerTableViewController.m"
-            timestampString = "475742667.293965"
+            timestampString = "476619953.726366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-tableView:commitEditingStyle:forRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10295,11 +10295,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
+            startingLineNumber = "486"
+            endingLineNumber = "486"
             landmarkName = "-loadDocuments"
             landmarkType = "5">
          </BreakpointContent>
@@ -10311,11 +10311,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/ToolsTableViewController.m"
-            timestampString = "475837201.045063"
+            timestampString = "476618363.639875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10487,11 +10487,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "754"
-            endingLineNumber = "754"
+            startingLineNumber = "752"
+            endingLineNumber = "752"
             landmarkName = "-loadAllAirports"
             landmarkType = "5">
          </BreakpointContent>
@@ -10503,11 +10503,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475685740.620892"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1844"
-            endingLineNumber = "1844"
+            startingLineNumber = "1870"
+            endingLineNumber = "1870"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10519,11 +10519,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475685740.620892"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1847"
-            endingLineNumber = "1847"
+            startingLineNumber = "1873"
+            endingLineNumber = "1873"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10535,11 +10535,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475654096.553204"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
             landmarkName = "-selectedWaypoint:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10551,11 +10551,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1221"
-            endingLineNumber = "1221"
+            startingLineNumber = "1218"
+            endingLineNumber = "1218"
             landmarkName = "-chooseWaypointButtonTapped:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10567,11 +10567,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1231"
-            endingLineNumber = "1231"
+            startingLineNumber = "1228"
+            endingLineNumber = "1228"
             landmarkName = "-chooseWaypointButtonTapped:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10583,11 +10583,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1241"
-            endingLineNumber = "1241"
+            startingLineNumber = "1239"
+            endingLineNumber = "1239"
             landmarkName = "-selectedWaypoint:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10599,11 +10599,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475654096.553204"
+            timestampString = "476455500.689402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-viewDidAppear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10615,11 +10615,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475654096.553204"
+            timestampString = "476457534.594979"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "-viewDidDisappear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10631,11 +10631,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/os4MapsViewController.m"
-            timestampString = "475743824.71896"
+            timestampString = "476008257.554105"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "892"
-            endingLineNumber = "892"
+            startingLineNumber = "890"
+            endingLineNumber = "890"
             landmarkName = "-mapView:didSelectAnnotationView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10647,11 +10647,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475654280.287372"
+            timestampString = "476455500.689402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "-viewDidAppear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10663,11 +10663,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475654283.977302"
+            timestampString = "476455500.689402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "-viewDidAppear:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10679,11 +10679,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2394"
-            endingLineNumber = "2394"
+            startingLineNumber = "2420"
+            endingLineNumber = "2420"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10695,11 +10695,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2413"
-            endingLineNumber = "2413"
+            startingLineNumber = "2440"
+            endingLineNumber = "2440"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10711,11 +10711,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2433"
-            endingLineNumber = "2433"
+            startingLineNumber = "2461"
+            endingLineNumber = "2461"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10727,11 +10727,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2480"
-            endingLineNumber = "2480"
+            startingLineNumber = "2508"
+            endingLineNumber = "2508"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10743,11 +10743,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2499"
-            endingLineNumber = "2499"
+            startingLineNumber = "2528"
+            endingLineNumber = "2528"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10759,27 +10759,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2520"
-            endingLineNumber = "2520"
-            landmarkName = "+calculateSunriseSunset"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2603"
-            endingLineNumber = "2603"
+            startingLineNumber = "2549"
+            endingLineNumber = "2549"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10791,11 +10775,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2492"
-            endingLineNumber = "2492"
+            startingLineNumber = "2632"
+            endingLineNumber = "2632"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10807,11 +10791,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2490"
-            endingLineNumber = "2490"
+            startingLineNumber = "2521"
+            endingLineNumber = "2521"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10823,11 +10807,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2500"
-            endingLineNumber = "2500"
+            startingLineNumber = "2519"
+            endingLineNumber = "2519"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10839,11 +10823,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475687740.920516"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2495"
-            endingLineNumber = "2495"
+            startingLineNumber = "2529"
+            endingLineNumber = "2529"
+            landmarkName = "+calculateSunriseSunset"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RIM/StartTableViewController.m"
+            timestampString = "476617283.205397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2524"
+            endingLineNumber = "2524"
             landmarkName = "+calculateSunriseSunset"
             landmarkType = "5">
          </BreakpointContent>
@@ -10871,11 +10871,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/StartTableViewController.m"
-            timestampString = "475686380.697239"
+            timestampString = "476617283.205397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1886"
-            endingLineNumber = "1886"
+            startingLineNumber = "1912"
+            endingLineNumber = "1912"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -10883,15 +10883,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RIM/AirportAlternatesTableViewController.m"
-            timestampString = "475687317.154157"
+            timestampString = "476621047.069564"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>

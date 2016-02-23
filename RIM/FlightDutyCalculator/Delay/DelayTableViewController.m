@@ -99,7 +99,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
     [dateFormat setDateFormat:@"HH:mm"];
     self.txtActReportTime.text = [[dateFormat stringFromDate:[User sharedUser].DelayActReport]stringByAppendingString:@""];
     [StartFDPTableViewController calcLimitingFDP];
-    NSString *strMaxFDP = [[NSString alloc] initWithFormat:@"%.2li:%.2li", (long)[User sharedUser].IntMaxFDPHours, (long)[User sharedUser].IntMaxFDPMinutes];
+//    NSString *strMaxFDP = [[NSString alloc] initWithFormat:@"%.2li:%.2li", (long)[User sharedUser].IntMaxFDPHours, (long)[User sharedUser].IntMaxFDPMinutes];
     unsigned unitFlags = NSCalendarUnitHour | NSCalendarUnitMinute;
     NSCalendar *gregorian = [[NSCalendar alloc]
                              initWithCalendarIdentifier:NSCalendarIdentifierGregorian];

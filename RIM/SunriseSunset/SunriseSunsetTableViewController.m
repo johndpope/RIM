@@ -234,8 +234,13 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
         if (indexPath.row < [result count]) {
             Result = [result objectAtIndex:indexPath.row];
             cell.lblnamewpt.text = Result.strWptName;
-            cell.lblLat.text = Result.strLatitude;
-            cell.lblLon.text = Result.strLongitude;
+            if ([Result.strWptName isEqualToString:@"Sunrise"] || [Result.strWptName isEqualToString:@"Sunrise (2)"]) {
+                cell.imgViewLog.image = [UIImage imageNamed:@"sunrise-32.png"];
+            }else{
+            cell.imgViewLog.image = [UIImage imageNamed:@"sunset-32.png"];
+            }
+            cell.lblLat.text = @"";
+            cell.lblLon.text = @"";
             cell.lblAirways.text = Result.strTime;
             cell.lblEET.text = Result.strCET;
             cell.lblFlightlevel.text = [@"FL" stringByAppendingString:Result.strFlightLevel];
@@ -257,8 +262,8 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
         if (indexPath.row < [result count]) {
             Result = [result objectAtIndex:indexPath.row];
             cell.lblnamewpt.text = Result.strWptName;
-            cell.lblLat.text = Result.strLatitude;
-            cell.lblLon.text = Result.strLongitude;
+            cell.lblLat.text = @"";
+            cell.lblLon.text = @"";
             cell.lblAirways.text = Result.strTime;
             cell.lblEET.text = Result.strCET;
             cell.lblFlightlevel.text = [@"FL" stringByAppendingString:Result.strFlightLevel];

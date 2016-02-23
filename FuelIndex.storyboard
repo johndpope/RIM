@@ -2126,7 +2126,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="6.230 ltr max" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16B-mM-8rg">
-                                                    <rect key="frame" x="335" y="24" width="99" height="21"/>
+                                                    <rect key="frame" x="335" y="24" width="98" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -2164,10 +2164,10 @@
                                             <constraints>
                                                 <constraint firstItem="Ige-GW-WR1" firstAttribute="top" secondItem="8FW-DX-Uih" secondAttribute="top" id="0dn-vW-2CE"/>
                                                 <constraint firstAttribute="trailing" secondItem="U8X-qL-Sg7" secondAttribute="trailing" constant="30" id="21G-qq-bPG"/>
-                                                <constraint firstAttribute="centerX" secondItem="16B-mM-8rg" secondAttribute="centerX" id="4jg-u6-fQH"/>
+                                                <constraint firstAttribute="centerX" secondItem="16B-mM-8rg" secondAttribute="centerX" constant="-1" id="4jg-u6-fQH"/>
                                                 <constraint firstAttribute="centerX" secondItem="fon-cP-45c" secondAttribute="centerX" id="CuZ-GJ-hog"/>
                                                 <constraint firstAttribute="centerX" secondItem="nv5-86-UC1" secondAttribute="centerX" constant="-32" id="GOn-zr-47U"/>
-                                                <constraint firstItem="fon-cP-45c" firstAttribute="leading" secondItem="16B-mM-8rg" secondAttribute="leading" id="GiD-xD-KdA"/>
+                                                <constraint firstItem="fon-cP-45c" firstAttribute="leading" secondItem="16B-mM-8rg" secondAttribute="leading" constant="-1" id="GiD-xD-KdA"/>
                                                 <constraint firstAttribute="centerX" secondItem="4eu-i1-1Qb" secondAttribute="centerX" id="K01-eT-OfI"/>
                                                 <constraint firstAttribute="centerX" secondItem="Ige-GW-WR1" secondAttribute="centerX" constant="-70" id="KED-WD-hcX"/>
                                                 <constraint firstItem="8FW-DX-Uih" firstAttribute="top" secondItem="fon-cP-45c" secondAttribute="bottom" constant="11" id="Kej-iK-cjZ"/>
@@ -2183,7 +2183,7 @@
                                                 <constraint firstItem="fon-cP-45c" firstAttribute="trailing" secondItem="nv5-86-UC1" secondAttribute="trailing" id="o9L-sb-bX5"/>
                                                 <constraint firstItem="U8X-qL-Sg7" firstAttribute="top" secondItem="TxF-6t-3de" secondAttribute="top" constant="53" id="oXr-xa-d9t"/>
                                                 <constraint firstItem="fon-cP-45c" firstAttribute="top" secondItem="TxF-6t-3de" secondAttribute="top" constant="10" id="phR-L7-EsQ"/>
-                                                <constraint firstItem="nvL-tp-xZM" firstAttribute="leading" secondItem="16B-mM-8rg" secondAttribute="leading" id="rVR-F3-1aQ"/>
+                                                <constraint firstItem="nvL-tp-xZM" firstAttribute="leading" secondItem="16B-mM-8rg" secondAttribute="leading" constant="-1" id="rVR-F3-1aQ"/>
                                                 <constraint firstItem="Ige-GW-WR1" firstAttribute="leading" secondItem="16B-mM-8rg" secondAttribute="trailing" constant="8" symbolic="YES" id="tPz-9b-tTH"/>
                                                 <constraint firstItem="Ige-GW-WR1" firstAttribute="leading" secondItem="8FW-DX-Uih" secondAttribute="trailing" constant="8" symbolic="YES" id="vzS-4w-rOt"/>
                                             </constraints>

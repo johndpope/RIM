@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.backgroundColor = [UIColor clearColor];
     NSString *strICAO = [User sharedUser].strAnnAirport;
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"icaoidentifier ==  %@", strICAO];
     NSArray *result = [[User sharedUser].arrayWXNotams filteredArrayUsingPredicate: predicate];
@@ -34,6 +35,8 @@
         self.txtViewMETAR.text = @"NO DATA";
         self.txtViewNOTAMS.text = @"NO DATA";
     }
+    self.txtViewNOTAMS.backgroundColor = [UIColor clearColor];
+    self.txtViewMETAR.backgroundColor = [UIColor clearColor];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -41,7 +44,12 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+- (void)tableView:(UITableView *)tableView
+  willDisplayCell:(UITableViewCell *)cell
+forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    cell.backgroundColor = [UIColor clearColor];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -537,6 +537,8 @@
 	<dict>
 		<key>Aircraft</key>
 		<string>Widebody</string>
+		<key>New item</key>
+		<string></string>
 		<key>Airway1</key>
 		<string></string>
 		<key>Airway2</key>

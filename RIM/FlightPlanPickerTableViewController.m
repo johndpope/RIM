@@ -20,12 +20,14 @@
         [self loadDocuments];
         //Make row selections persist.
         self.clearsSelectionOnViewWillAppear = NO;
-        
+//        self.tableView = [[UITableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+        self = [super initWithStyle:UITableViewStyleGrouped];
+        self.tableView.backgroundColor = [UIColor clearColor];
         //Calculate how tall the view should be by multiplying the individual row height
         //by the total number of rows.
-        NSInteger rowsCount = [documents count];
-        NSInteger singleRowHeight = [self.tableView.delegate tableView:self.tableView heightForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-        NSInteger totalRowsHeight = rowsCount * singleRowHeight;
+//        NSInteger rowsCount = [documents count];
+//        NSInteger singleRowHeight = [self.tableView.delegate tableView:self.tableView heightForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+//        NSInteger totalRowsHeight = rowsCount * singleRowHeight;
         
         //Calculate how wide the view should be by finding how wide each string is expected to be
         CGFloat largestLabelWidth = 0;
@@ -44,7 +46,7 @@
         CGFloat popoverWidth = largestLabelWidth + 100;
         
         //Set the property to tell the popover container how big this view will be.
-        self.preferredContentSize = CGSizeMake(popoverWidth, totalRowsHeight);
+        self.preferredContentSize = CGSizeMake(popoverWidth, self.tableView.contentSize.height);
     }
     return self;
 }
@@ -67,7 +69,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.tableView.rowHeight = 50;
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(appplicationIsActive:)
                                                  name:UIApplicationDidBecomeActiveNotification
@@ -77,7 +79,21 @@
                                              selector:@selector(applicationEnteredForeground:)
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
+    
 }
+-(void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.preferredContentSize=self.tableView.contentSize;
+}
+
+- (void)tableView:(UITableView *)tableView
+  willDisplayCell:(UITableViewCell *)cell
+forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.backgroundColor = [UIColor clearColor];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -93,6 +109,7 @@
     // Return the number of sections.
     return 1;
 }
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {

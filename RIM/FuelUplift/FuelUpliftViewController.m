@@ -997,26 +997,26 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
 
 - (void)pickerView:(UIPickerView *)thePickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     if (thePickerView == _fuelPicker) {
-        self.txtFuelRemaining.text = [[[[[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:5]]];
+        self.txtFuelRemaining.text = [[[[[[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:5]]];
         self.txtFuelRemaining.text = [NSString stringWithFormat:@"%d", [self.txtFuelRemaining.text intValue]];
         [self result];
     }
     if (thePickerView == _fuelPickerVolumeUplift) {
-        self.txtFuelUpliftVolume.text = [[[[[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:5]]];
+        self.txtFuelUpliftVolume.text = [[[[[[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:5]]];
         self.txtFuelUpliftVolume.text = [NSString stringWithFormat:@"%d", [self.txtFuelUpliftVolume.text intValue]];
         [self result];
     }
     if (thePickerView == _fuelPickerDensity) {
         if ([[User sharedUser].strlblDensity isEqualToString: @"kg/ltr"]) {
-        self.txtDensity.text = [[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]+7]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:2]]];
+        self.txtDensity.text = [[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]+7]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:2]]];
         }else{
-            self.txtDensity.text = [[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:2]]];
+            self.txtDensity.text = [[[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:2]]];
         }
             [self DensityFieldChanged:self];
             [self result];
     }
     if (thePickerView == _fuelPickerDeparture) {
-        self.txtDepartureFuelCell.text = [[[[[[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", [thePickerView selectedRowInComponent:5]]];
+        self.txtDepartureFuelCell.text = [[[[[[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:0]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:1]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:2]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:3]]]stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:4]]] stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)[thePickerView selectedRowInComponent:5]]];
         self.txtDepartureFuelCell.text = [NSString stringWithFormat:@"%d", [self.txtDepartureFuelCell.text intValue]];
         [self result];
     }

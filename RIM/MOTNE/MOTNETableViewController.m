@@ -33,9 +33,6 @@
     for (i=1; i<37; i++) {
         [arrRWY addObject: [[NSString alloc] initWithFormat:@"%02li",(long)i]];
     }
-//    for (i=51; i<87; i++) {
-//        [arrRWYL addObject: [[NSString alloc] initWithFormat:@"%02li",(long)i]];
-//    }
     [arrRWY addObject: [[NSString alloc] initWithFormat:@"%02li",(long)88]];
     [arrRWY addObject: [[NSString alloc] initWithFormat:@"%02li",(long)99]];
     arrDeposits = [NSArray arrayWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"/", nil];
@@ -59,7 +56,7 @@
     [arrFrictionCoeff addObject:@"//"];
     
     // Initialize Data
-    _pickerData = @[ @[@"R"],
+    _pickerData = @[@[@"R"],
                      arrRWY,
                      arrRWYLRC,
                      arrDeposits,
@@ -140,7 +137,7 @@ forRowAtIndexPath:(NSIndexPath *)indexPath
         self.lblRWY.text = @"Repetition of last message due to missing new report";
     }else
     {
-        self.lblRWY.text = [[@"" stringByAppendingString:[NSString stringWithFormat:@"%02li",[[arrRWY objectAtIndex:[self.MOTNEPicker selectedRowInComponent:1]]integerValue]]]stringByAppendingString:[arrRWYLRC objectAtIndex:[self.MOTNEPicker selectedRowInComponent:2]]];
+        self.lblRWY.text = [[@"" stringByAppendingString:[NSString stringWithFormat:@"%02li",(long)[[arrRWY objectAtIndex:[self.MOTNEPicker selectedRowInComponent:1]]integerValue]]]stringByAppendingString:[arrRWYLRC objectAtIndex:[self.MOTNEPicker selectedRowInComponent:2]]];
     }
     if ([[NSString stringWithFormat:@"%@",[arrDeposits objectAtIndex:[self.MOTNEPicker selectedRowInComponent:3]]] isEqualToString:@"/"]) {
         self.lblDeposit.text = @"Type of deposit not reported";

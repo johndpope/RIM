@@ -13,7 +13,7 @@ static User *sharedUser = nil;
 
 @implementation User
 
-@synthesize arrayAllCompanyAirports,strSelectedWaypoint;
+@synthesize arrayAllCompanyAirports,strSelectedWaypoint,bolPopupWaypoints;
 
 @synthesize strAverageFF,strAverageISADeviation,strAverageTemperature,strAverageWindComponent,strAverageWindDirection,strAverageWindSpeed,strRouteDescription,strClimbMach,strClimbSpeed,strCruiseCI,strDescendMach,strDescendSpeed,strGreatCircleDistance,strAirDistance,strGroundDistance,strOptimization,strPerformanceFactor,strRouteName;
 

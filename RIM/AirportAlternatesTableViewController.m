@@ -20,17 +20,35 @@
 
 @implementation AirportAlternatesTableViewController
 
+//- (id)initWithStyle:(UITableViewStyle)style
+//{
+//    if ([super initWithStyle:style] != nil) {
+//        self = [super initWithStyle:UITableViewStyleGrouped];
+//    }
+//    return self;
+//
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView setBackgroundView:nil];
-    [self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Etihad.JPG"]] ];
+
+//    [self.tableView setBackgroundView:nil];
+//    [self.tableView setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Etihad.JPG"]] ];
+    ;
+//    [self.tableView initWithFrame:self.view.frame.size style:UITableViewStyleGrouped];
     self.tableView.rowHeight = 55;
 }
+-(void) viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    self.preferredContentSize=self.tableView.contentSize;
+}
+
 - (void)tableView:(UITableView *)tableView
   willDisplayCell:(UITableViewCell *)cell
 forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [cell setBackgroundColor:[UIColor colorWithRed:0.333 green:0.333 blue:0.333 alpha:0.4]]; /*#555555*/
+//    [cell setBackgroundColor:[UIColor colorWithRed:0.333 green:0.333 blue:0.333 alpha:0.4]]; /*#555555*/
+    [cell setBackgroundColor:[UIColor clearColor]]; /*#555555*/
 }
 
 - (void)setAirport:(Airport *)newAirport
